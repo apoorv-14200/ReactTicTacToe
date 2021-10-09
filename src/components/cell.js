@@ -15,7 +15,6 @@ class Cell extends React.Component {
   }
   render() {
     const id = this.props.id;
-    console.log(id);
     const type = this.props.cellbox.val;
     const turn = this.props.getturn();
     return (
